@@ -16,8 +16,10 @@
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
+    "typeRoots": ["nodes_modules/@angular/material"],
     "module": "ES2022",
     "useDefineForClassFields": false,
+    "strictNullChecks": false,
     "lib": [
       "ES2022",
       "dom"
